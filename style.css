@@ -22,7 +22,7 @@ h1,.white{
 }
 
 h2 {
-    color: #D5492E;
+    color: #222222;
 }
 
 a{
@@ -45,4 +45,9 @@ a{
 
 p {
     margin: 40px;
+}
+
+.connected {
+    color: #D5492E;
+    font-weight: bolder;
 }
