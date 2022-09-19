@@ -35,7 +35,11 @@ a{
     color: #36BF80;
 }
 
-img {
+.icon {
+    width: 58px;
+}
+
+.profile{
     border-radius: 50%;
 }
 
