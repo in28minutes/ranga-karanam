@@ -31,12 +31,12 @@ a{
 }
 
 .social {
-    font-size:60px;
+    font-size:80px;
     color: #36BF80;
 }
 
 .icon {
-    width: 58px;
+    width: 76px;
 }
 
 .profile{
@@ -50,4 +50,5 @@ p {
 .connected {
     color: #D5492E;
     font-weight: bolder;
+    font-size:30px;
 }
