@@ -1,16 +1,14 @@
 /* global */
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-img {
-  border-radius: 50%;
-}
+
 
 body{
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    background-color: #FFFFFF;
-    color: #000000;
+    background-color: #ffffff;
+    color: #111111;
     font-size: 20px;
     vertical-align: middle;
     text-align: center;
@@ -18,7 +16,7 @@ body{
 }
 
 h1,.white{
-    color: #000000;
+    color: #111111;
 }
 
 h2 {
@@ -33,4 +31,8 @@ a{
 .social {
     font-size:60px;
     color: #36BF80;
+}
+
+img {
+    border-radius: 50%;
 }
