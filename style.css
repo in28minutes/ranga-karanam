@@ -186,10 +186,9 @@ nav .container{
 /* Hero section */
 .hero{
     position: relative;
-    margin-top: 3rem;
+    margin-top: 8rem;
     backdrop-filter: blur(10px);
     background-color: var(--bg);
-    padding-bottom: 30px;
     
 }
 .blurred-gradient{
@@ -208,7 +207,7 @@ nav .container{
 .hero-row{
     grid-template-columns: 1fr 1fr;
     height: 80vh;
-    overflow: visible;
+    overflow: hidden;
 
 }
 
@@ -224,7 +223,7 @@ nav .container{
 .auto-typing{
     display: inline-block;
     position: relative;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     white-space: nowrap;
 
 }
@@ -294,8 +293,8 @@ nav .container{
 .achievements{
     background-color: var(--primary-color);
     backdrop-filter: blur(5px);
-    padding-block: 40px;
-    position: relative;
+    padding-block: 30px;
+    justify-content: center;
 
 
 }
@@ -343,14 +342,17 @@ nav .container{
 
 
 
+
+
 /* Meet */
 .meet{
-    padding-block: 4rem;
+    padding-block: 2rem;
     position: relative;
     background-color: #FFFFFF00;
     backdrop-filter: blur(16px);
     overflow: hidden;
-    padding-bottom: 10px;
+    justify-content: center;
+    
     
 }
 .meet::before{
@@ -361,7 +363,6 @@ nav .container{
     display: block;
     width: 50%;
     height: 2px;
-    background-color: #d9d3d3db;
     border-radius: 5px;
   
 
@@ -373,7 +374,7 @@ nav .container{
 }
 .meet .waves{
     position: absolute;
-    top: -25%;
+    top: 0%;
     left: 0%;
     width: 100%;
     height: 100%;
@@ -389,7 +390,7 @@ nav .container{
     left: 0;
 }
 .meet .instructor-img{
-    margin-block: 5rem;
+    margin-block: 2rem;
     gap: 2rem;
     place-items: center;
     padding-block: 2rem;
@@ -400,7 +401,6 @@ nav .container{
     height: 25rem;
     border-radius: 100%;
     overflow: hidden;
-    
 }
 .meet .instructor-img img{
     width: 100%;
@@ -416,13 +416,23 @@ nav .container{
     color: #777C85;
 }
 
-.meet .instructor-img a{
-    object-fit: cover;
-    padding-bottom: 10px;
-    overflow: visible;
+.worked-companies{
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
 }
-
-
+.worked-companies div{
+    gap: 2rem;
+    justify-items: center;
+}
+.worked-companies img{
+    width: 20rem;
+    height: 10rem;
+    object-fit: contain;
+}
+.worked-companies{
+    padding: 2rem;
+    color:#45484e;
+}
 
 
 /* Placement section */
@@ -450,8 +460,6 @@ nav .container{
 }
 .col-right{
     place-items: center;
-    padding-bottom: 10px;
-    overflow: visible;
     /* background-color: #363A45; */
 }
 .col-right .box{
@@ -555,6 +563,10 @@ nav .container{
 
 
 
+
+
+
+
 /* Footer */
 footer{
     background-color: var(--primary-color);
@@ -598,7 +610,7 @@ footer{
 
 footer .copyright{
     text-align: center;
-    padding-block: 2rem;
+    padding-block: 4rem;
     font-size: 1.6rem;
     background-color: whitesmoke;
 }
@@ -649,10 +661,10 @@ footer .copyright{
     }
 
     .hero-row{
-        height: 100vh;
+        height: 120vh;
     }
     .hero-row .col-left{
-        padding: 5rem;
+        padding: 3rem;
         
     }
 
